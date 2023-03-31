@@ -1,0 +1,28 @@
+/* CSS styling for To-Do List */
+
+/* Reminder: Use the class name (Ex: .classname) to reference what object is being styled for divs. */
+/* Reminder: Use the button id (Ex: #buttonname) to reference what objext is being styled for buttons. */
+
+/* Editing the item description */
+.item-description {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* :checked will allow the styling to take place ONLY when the item is checked off! */
+/* Will also style the item-description when the box is checked off */
+/* User can see the visual difference of a completed item from the list */
+.item-completed:checked +  .item-description {
+    background-color: gray;
+    text-decoration: line-through;
+}
+
+/* Styling for the add item buttton */
+#add {
+    padding: 10px 14px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}

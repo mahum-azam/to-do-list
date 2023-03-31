@@ -1,0 +1,53 @@
+<!-- HTML structure for To-Do List -->
+
+<!-- Start HTML document -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Head area -->
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"
+
+        <!-- Declare title in head area -->
+        <title>To-Do List</title>
+
+        <!-- Link to CSS stylesheet -->
+        <link rel="stylesheet" href="main.css">
+
+        <!-- Link to JavaScript script -->
+        <!-- defer allows us to link the JavaScript file in the head, it will execute when page completes loading -->
+        <script src="main.js" defer></script>
+
+    </head> 
+
+    <!-- Body area -->
+    <body>
+
+        <!-- Section will display the items the user has entered -->
+        <div id="items">
+    
+        </div>
+
+        <template id="itemTemplate">
+
+             <!-- Enetering .item shortcut creates <div class="item"></div> -->
+             <div class="item"></div>
+
+             <!-- Shortcuts, input:checkbox / input:text -->
+             <!-- Checkbox next to items-->
+             <input type="checkbox" class="item-completed">
+
+             <!-- Text box for the user -->
+             <input type="text" class="item-description" placeholder="To-do item...">
+
+        </template>
+
+        <!-- Button used to add items to list -->
+        <button id="add">Add item</button>
+
+    </body>
+
+</html>
+<!-- End HTML document -->
