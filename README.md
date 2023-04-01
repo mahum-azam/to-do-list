@@ -1,4 +1,4 @@
 # To-do List
 
 Demonstration video:
-https://media.giphy.com/media/VB9hA8TVc6rpzkoIdm/giphy.gif
+https://media.giphy.com/media/K3HeCRUy97DptmK6Wk/giphy.gif
